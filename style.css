@@ -134,7 +134,7 @@ footer {
         gap: 2rem;
     }
 }
-/* Resume Specific Styles */
+
 .resume-header {
     text-align: center;
     margin-bottom: 2rem;
@@ -226,7 +226,7 @@ footer {
     border-left: 3px solid var(--accent-color);
 }
 
-/* Mobile responsiveness */
+
 @media (max-width: 600px) {
     .references-grid {
         grid-template-columns: 1fr;
@@ -264,4 +264,5 @@ footer {
 .github-button:hover {
     background: var(--accent-color);
     transform: translateY(-2px);
+
 }
